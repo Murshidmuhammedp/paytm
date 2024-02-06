@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+.container1{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    width: 100%px;
+    position:sticky;
+    top: 0%;
+}
+.items{
+    font-weight: 600;
+    font-size: 17px;
+    padding: 16px 18px;
+    height: 50px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    background-color: #f6f6f6;
+}
+#signin{
+ height: 8px;
+ width: 80px;
+ border-radius: 20px;
+ background-color: #00baf2;
+ color: white;
+ margin: 20px 2px 0px 60px;
+}
+.paragraph{
+    font-weight: 600;
+}
+.learnmore{
+    font-weight: 600;
+    cursor: pointer;
+}
+#emoji{
+    font-size: 22px;
+    margin-top:-8px;
+}
+#photo{
+      width: 528px;
+      position: absolute;
+      top: 250px;
+      right: 0px;
+}
+#photo2{
+    width: 80px;
+    position: absolute;
+    top: 250px;
+    left: 135px;
+}
+h1{
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-block-start: 4.13em;
+    font-weight: bold;
+    margin-inline-start: 130px ;
+    margin-inline-end: 0px;
+}
+.pp{
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline-start: 130px;
+    padding-top: 10px;
+    width: 475px;
+    line-height: 30px;
+
+}
+.download{
+    border:1px solid black;
+    border-radius: 50PX;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    height: 44px;
+    width: 220px;
+    margin-inline-start: 130px;
+    background-color:black;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+.download:hover{
+    fill: black;
+    background-color: white;
+    color: black;
+}
+.icon{
+    color: white;
+   fill: white; 
+   padding: 6px;
+}
+.download:hover .icon{
+    fill: black;
+}
+#person{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: -12px;
+}
+#signin:hover{
+   background-color: rgb(9, 9, 117);
+}
+.blue{
+    background-color: #00baf2;
+    height: 300px;
+    width: 100%;
+    margin-top: 110px;
+}
